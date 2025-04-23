@@ -1,4 +1,18 @@
 @media (max-width: 768px) {
+
+  .nav-item a {
+    color: rgb(35, 140, 220) !important;
+  }
+
+  span.account {
+    color: rgb(100, 204, 30) !important;
+  }
+
+  .hero-section .container .row {
+    padding: 50px 10px !important;
+
+  }
+
   .hiking-text {
     padding: 24px 12px 24px 12px;
     margin-bottom: 24px;
@@ -142,6 +156,34 @@
   footer .mt-md-3 {
     margin-top: 12px !important;
     font-size: 1rem;
+  }
+
+  @media (max-width: 767.98px) {
+    .copyright-mobile {
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100vw;
+      background: #0B1D26;
+      color: #ccc;
+      text-align: center;
+      padding: 12px 0;
+      font-size: 0.95rem;
+      z-index: 999;
+    }
+
+    footer .col-md-6 .copyright-mobile {
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100vw;
+      margin: 0 !important;
+      padding: 12px 0;
+    }
+
+    body {
+      padding-bottom: 48px;
+    }
   }
 }
 
